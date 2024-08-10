@@ -57,7 +57,6 @@ p3.innerText= " “Keep Going, You’re making great progress!” "
 allchekbox.forEach((chekbox) => {
 
     chekbox.addEventListener('click', () => {
-
         let allfieldcheck = [...userinput].every((inputdata) => {
             return inputdata.value;
         })
